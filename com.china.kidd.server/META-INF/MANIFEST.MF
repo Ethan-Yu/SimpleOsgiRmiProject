@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Server
+Bundle-SymbolicName: com.china.kidd.server
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.china.kidd.server.ServerRegister
+Bundle-Vendor: CHINA
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Import-Package: com.china.kidd.api,
+ org.osgi.framework;version="1.3.0"
+Bundle-ActivationPolicy: lazy
